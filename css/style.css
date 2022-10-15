@@ -1,0 +1,123 @@
+/* global */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-size: 500px;
+    background-image: url(../img/pattern-2.jpg);
+}
+.header {
+    padding: 20px;
+    background-color: #2C3333;
+    height: 100px;
+}
+.header img {
+    margin: 10px 20px;
+    float: left;
+    width: 50px;
+}
+.content {
+    padding: 30px;
+}
+h2, p {
+    text-align: center;
+}
+
+/* menu */
+.header ul li {
+    display: inline-block;
+    margin: 20px;
+}
+.header li {
+    list-style-type: none;
+    float: left;
+}
+a {
+    text-decoration: none;
+    color: #FEFBF6;
+    text-transform: uppercase;
+}
+a:hover {
+    font-weight: bold;
+}
+h1 {
+    font-size: 60px;
+    padding: 50px 0;
+}
+.highlight {
+    background-color: #8cc7e4;
+    padding: 5px 15px;
+    border-radius: 10px;
+}
+.left, .right {
+    width: 50%;
+    padding: 50px;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+
+/* partisipan */
+table {
+    text-align: center;
+    border-collapse: collapse;
+    width: 75%;
+    margin: 0 auto;
+}
+table, th, td {
+    border: 1px solid black;
+}
+th {
+    background-color: #A6D1E6;
+}
+td {
+    background-color: whitesmoke;
+}
+th, td {
+    padding: 10px;
+}
+
+/* tata tertib */
+.tata-tertib li {
+    text-align: justify;
+}
+.tata-tertib {
+    background-color: #FEFBF6;
+    margin: 75px auto;
+    border: 2px solid #2C3333;
+    border-radius: 10px;
+    width: 600px;
+    padding: 50px;
+}
+
+/* materi */
+.materi li{
+    list-style-type: none;
+    margin: 20px 40px;
+    text-align: center;
+}
+.materi li:nth-child(odd) a {
+    background-color: #5CB8E4;
+}
+.materi li:nth-child(even) a {
+    background-color: #8758FF;
+}
+.materi a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 30px;
+    border-radius: 10px;
+    color: black;
+}
+
+/* tentang */
+.tentang img {
+    margin: 20px;
+}
